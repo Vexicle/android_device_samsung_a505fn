@@ -9,6 +9,8 @@ vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
 vendor.sec.rild.libpath2=/vendor/lib64/libsec-ril-dsds.so
 
 
+ro.apk_verity.mode=2
+
 # Boost Framework & Memory management tuning
 
 # Increase/Reduce AOSP boostframework default boosting durations (int)
