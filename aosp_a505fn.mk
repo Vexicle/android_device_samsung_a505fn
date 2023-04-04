@@ -50,7 +50,7 @@ TARGET_USE_GOOGLE_TELEPHONY := true
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a505fn
-PRODUCT_NAME := aosp_a505fn
+PRODUCT_NAME := a505fn
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A505FN
 PRODUCT_MANUFACTURER := samsung
