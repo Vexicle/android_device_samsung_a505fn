@@ -36,6 +36,18 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+## RiceDroid Stuff, Can change if you wish
+RICE_CHIPSET := "Exynos 9610"
+RICE_MAINTAINER := "Vexicle"
+RICE_PACKAGE_TYPE := "WITH_GMS AOSP"
+SUSHI_BOOTANIMATION := 1080
+TARGET_USE_PIXEL_FINGERPRINT := true
+
+## GMS stuff
+WITH_GMS := true
+TARGET_USE_GOOGLE_TELEPHONY := true
+
+
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a505fn
 PRODUCT_NAME := aosp_a505fn
